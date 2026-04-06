@@ -1,0 +1,144 @@
+[[SimpleBLE]]
+arch = "aarch64"
+git-tree-sha1 = "f9e87133e1eb741264516c20bd751c0bb3450548"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "0858f1ad9ce9dc7c567d18b4982d1a81b2864db903ca69892e4da0d5a146fe04"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.aarch64-linux-gnu.tar.gz"
+[[SimpleBLE]]
+arch = "aarch64"
+git-tree-sha1 = "b35946e7ba31ff6af164929aae769ae4e8faec23"
+libc = "musl"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "1767e713cb0f0cd281104f36d26c90c861f2a964f3a1187fe905fccc82e5d602"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.aarch64-linux-musl.tar.gz"
+[[SimpleBLE]]
+arch = "aarch64"
+git-tree-sha1 = "d8ee7ec3813c197cc4aecb6c3d80afe7b6f80d48"
+os = "freebsd"
+
+    [[SimpleBLE.download]]
+    sha256 = "fa2f8ed70238bb3ee6754da57bb680f042a6e1a9be5bce5a0e5504bd071f2899"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.aarch64-unknown-freebsd.tar.gz"
+[[SimpleBLE]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "bab617113d503352950010a5ae27f4a5e285104d"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "98961f2360d5e34e4d6a758dd482b33f186aa31424538118a9784fed93585797"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.armv6l-linux-gnueabihf.tar.gz"
+[[SimpleBLE]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "1c365fa0db26bdeee8020fca5af441c8c0451c06"
+libc = "musl"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "d02d748e20bc86307d1f53ef7305dcdc4e19f0e5b196aae278532c1b9845fc39"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.armv6l-linux-musleabihf.tar.gz"
+[[SimpleBLE]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ca25b419139b5c26a10600a481182048f114d389"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "afbe98486693f209e6a6cc564708ebb818cfffb6159a725f5f866c1806e95663"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.armv7l-linux-gnueabihf.tar.gz"
+[[SimpleBLE]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "033fcd03f0ac6f4704530a811f3ca44b29ad8335"
+libc = "musl"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "30c2ffc2bc4919d8f572f12cda64dab1343d585991fb7befb18c264b81e841da"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.armv7l-linux-musleabihf.tar.gz"
+[[SimpleBLE]]
+arch = "i686"
+git-tree-sha1 = "32c5c7bf2c6460b915e689d68ede8226b23b67f6"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "51569d581e32de760d59e179c484e7cbbf9678b541288ff4f5e678eb1e9d035c"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.i686-linux-gnu.tar.gz"
+[[SimpleBLE]]
+arch = "i686"
+git-tree-sha1 = "b14f58ee037dd259327d59575af115b3fe0de3d8"
+libc = "musl"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "f643651fe977fa69ee58d6bbe81f302dc40868e2ac3b541159c6be161afd1724"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.i686-linux-musl.tar.gz"
+[[SimpleBLE]]
+arch = "i686"
+git-tree-sha1 = "bb31e19779b9d78fdefe90c0c06193e776269160"
+os = "windows"
+
+    [[SimpleBLE.download]]
+    sha256 = "99b2b1e8d22a6b059c771903e7d571fcfc04da2ca7951822ab4bae183c221fd4"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.i686-w64-mingw32.tar.gz"
+[[SimpleBLE]]
+arch = "powerpc64le"
+git-tree-sha1 = "d918f9d4df774ecee1a4e2f1b4fbc75d42ca6ff9"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "45bf81e96a7c8e1d15edbd4d56d5325d6fb5b8305a2fff5669626b3659d40fca"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.powerpc64le-linux-gnu.tar.gz"
+[[SimpleBLE]]
+arch = "riscv64"
+git-tree-sha1 = "a393ea08a853a20e8ee82db9a063a87ba7aac7dd"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "0a685fdeb54c19f9ed551ae80caaec72ac8072f1ed31840a98f3f04caab36a1b"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.riscv64-linux-gnu.tar.gz"
+[[SimpleBLE]]
+arch = "x86_64"
+git-tree-sha1 = "57489a75deca9aa0d29a8c03697dd7cd1bf090ea"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "58c7d02662ae13b942be1002d987d0319d85fe224cd232b264c9bf2037d3b670"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.x86_64-linux-gnu.tar.gz"
+[[SimpleBLE]]
+arch = "x86_64"
+git-tree-sha1 = "2ab7e89aebb23db5bc260455bf4454f6de27c0a5"
+libc = "musl"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "9a9d5e8d62e8fbcd4d0c536dea3779726463096b589277b7a6137718b54b469f"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.x86_64-linux-musl.tar.gz"
+[[SimpleBLE]]
+arch = "x86_64"
+git-tree-sha1 = "cb53c123557cd7b953b1a25d002139edf9f03cb9"
+os = "freebsd"
+
+    [[SimpleBLE.download]]
+    sha256 = "9e4be984534e0ef5e209f7b6f233dbb5a404ae751be61289299cec0b8505cf0a"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.x86_64-unknown-freebsd.tar.gz"
+[[SimpleBLE]]
+arch = "x86_64"
+git-tree-sha1 = "a1afeb6e88952615784977df0a66f63e49bd254c"
+os = "windows"
+
+    [[SimpleBLE.download]]
+    sha256 = "280ac8ceea0cc0c795ff5c35b4d5178288a304c4f6281d3207dc33352b6653ed"
+    url = "file:///home/torfi/simplecble/Final_Script/products/SimpleBLE.v0.12.1.x86_64-w64-mingw32.tar.gz"

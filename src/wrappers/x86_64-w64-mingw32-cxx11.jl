@@ -2,18 +2,12 @@
 export simpleble, simpleble, simplecble, simplecble
 
 JLLWrappers.@generate_wrapper_header("SimpleBLE")
-JLLWrappers.@declare_library_product(simpleble, "libsimpleble.dll")
 JLLWrappers.@declare_library_product(simpleble, "simpleble.dll")
-JLLWrappers.@declare_library_product(simplecble, "libsimplecble.dll")
+JLLWrappers.@declare_library_product(simpleble, "libsimpleble.dll")
 JLLWrappers.@declare_library_product(simplecble, "simplecble.dll")
+JLLWrappers.@declare_library_product(simplecble, "libsimplecble.dll")
 function __init__()
     JLLWrappers.@generate_init_header()
-    JLLWrappers.@init_library_product(
-        simpleble,
-        "bin\\libsimpleble.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
     JLLWrappers.@init_library_product(
         simpleble,
         "bin\\simpleble.dll",
@@ -21,14 +15,20 @@ function __init__()
     )
 
     JLLWrappers.@init_library_product(
-        simplecble,
-        "bin\\libsimplecble.dll",
+        simpleble,
+        "bin\\libsimpleble.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         simplecble,
         "bin\\simplecble.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        simplecble,
+        "bin\\libsimplecble.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

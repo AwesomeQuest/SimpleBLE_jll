@@ -11,25 +11,25 @@ function __init__()
     JLLWrappers.@generate_init_header(Dbus_jll)
     JLLWrappers.@init_library_product(
         simpleble,
-        "lib/libsimpleble.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        simpleble,
         "lib/simpleble.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
-        simplecble,
-        "lib/libsimplecble.so",
+        simpleble,
+        "lib/libsimpleble.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         simplecble,
         "lib/simplecble.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        simplecble,
+        "lib/libsimplecble.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

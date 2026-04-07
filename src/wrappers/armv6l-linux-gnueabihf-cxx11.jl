@@ -23,13 +23,13 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         simplecble,
-        "lib/simplecble.so",
+        "lib/libsimplecble.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         simplecble,
-        "lib/libsimplecble.so",
+        "lib/simplecble.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

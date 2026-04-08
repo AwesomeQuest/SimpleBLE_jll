@@ -129,95 +129,95 @@ os = "windows"
 [[SimpleBLE]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f9e87133e1eb741264516c20bd751c0bb3450548"
+git-tree-sha1 = "28e9827890aec3005d7349f1aa67d806289e224f"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "0858f1ad9ce9dc7c567d18b4982d1a81b2864db903ca69892e4da0d5a146fe04"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "44b32bc13616a495de43bc57f08e04c7b0bd975d741c47652130be1d4ead2cd6"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.aarch64-linux-gnu-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b35946e7ba31ff6af164929aae769ae4e8faec23"
+git-tree-sha1 = "24bcb3e145aba20a51c433d8e73a3af5ca71ce74"
 libc = "musl"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "1767e713cb0f0cd281104f36d26c90c861f2a964f3a1187fe905fccc82e5d602"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "b4fe388c7eafa0b78cc60b578c74119b55ced269c0d72581644a1b65c8a9a911"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.aarch64-linux-musl-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "aarch64"
-git-tree-sha1 = "d8ee7ec3813c197cc4aecb6c3d80afe7b6f80d48"
+git-tree-sha1 = "27fa4a2dd6b7f00e1376200a267ff5737c34b4d5"
 os = "freebsd"
 
     [[SimpleBLE.download]]
-    sha256 = "fa2f8ed70238bb3ee6754da57bb680f042a6e1a9be5bce5a0e5504bd071f2899"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "8b3dca9f13e20cac1d766a34697c118941a9b61459aa94b4ae9e0d12f8733a5b"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.aarch64-unknown-freebsd.tar.gz"
 [[SimpleBLE]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bab617113d503352950010a5ae27f4a5e285104d"
+git-tree-sha1 = "3124711081dd531fa51d3494c1b14b27bf4819b5"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "98961f2360d5e34e4d6a758dd482b33f186aa31424538118a9784fed93585797"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "24984af4d660f875d1b006ddbbf31aae5528859ea705c4d9f7d637a03ea266f2"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1c365fa0db26bdeee8020fca5af441c8c0451c06"
+git-tree-sha1 = "e064ea48a5344bbacb210a06e2dfba8a6581ee75"
 libc = "musl"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "d02d748e20bc86307d1f53ef7305dcdc4e19f0e5b196aae278532c1b9845fc39"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "181e268ee872889ee0142fe20b8816965e8910379f6bebfb0ead90e07479b5b8"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ca25b419139b5c26a10600a481182048f114d389"
+git-tree-sha1 = "b6aaf35274a499c0620a9b2b0216fe0342a8b150"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "afbe98486693f209e6a6cc564708ebb818cfffb6159a725f5f866c1806e95663"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "07aeda4e01518d18f1f3ee9697de32bb6b0305461de57aedba53d5965085aa25"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "033fcd03f0ac6f4704530a811f3ca44b29ad8335"
+git-tree-sha1 = "2eb4e308b85e0cf3e6d330d83db07c4376c553f6"
 libc = "musl"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "30c2ffc2bc4919d8f572f12cda64dab1343d585991fb7befb18c264b81e841da"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "2b6f914465b646de0500a2d92295960b3302a995a229493eb775c03d60f22418"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "32c5c7bf2c6460b915e689d68ede8226b23b67f6"
+git-tree-sha1 = "e79be0ddd24b9fdda0842a6b40cc848d162649e5"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "51569d581e32de760d59e179c484e7cbbf9678b541288ff4f5e678eb1e9d035c"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "cbfd2d3d62c40490f345c364a84c045ea431526ba83bdd541cd134aba929591a"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.i686-linux-gnu-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b14f58ee037dd259327d59575af115b3fe0de3d8"
+git-tree-sha1 = "0808a8747d4ad5880cc9b16c515aa3de18689425"
 libc = "musl"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "f643651fe977fa69ee58d6bbe81f302dc40868e2ac3b541159c6be161afd1724"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "c725c438d13fdf1ef962216ba0b0621f879839516468e70636d86eefbfa58acf"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.i686-linux-musl-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -226,55 +226,55 @@ os = "windows"
 
     [[SimpleBLE.download]]
     sha256 = "0a8a4b7783ce710b57963303303a347bc6af048d08068cbe0a4971eb89ef9671"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.i686-w64-mingw32-cxx11.tar.gz"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.i686-w64-mingw32-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d918f9d4df774ecee1a4e2f1b4fbc75d42ca6ff9"
+git-tree-sha1 = "c85c49c5fadba931caecdb7e709bf828854dc657"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "45bf81e96a7c8e1d15edbd4d56d5325d6fb5b8305a2fff5669626b3659d40fca"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "3fe2935a6c846a6218ba27204524cd6f0ab3ba1a8cf00a0ecc2e576fc5bcb1ad"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a393ea08a853a20e8ee82db9a063a87ba7aac7dd"
+git-tree-sha1 = "ea53759120f96afc1f99a2c01859506bca533ec9"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "0a685fdeb54c19f9ed551ae80caaec72ac8072f1ed31840a98f3f04caab36a1b"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.riscv64-linux-gnu-cxx11.tar.gz"
+    sha256 = "cc4bb63018a86438c643ebd549e8cae7f8d84d8cc77512faa7770cecf5c381ee"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.riscv64-linux-gnu-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "57489a75deca9aa0d29a8c03697dd7cd1bf090ea"
+git-tree-sha1 = "bf98729808d041ffac3381ae8ff836ad252c70ea"
 libc = "glibc"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "58c7d02662ae13b942be1002d987d0319d85fe224cd232b264c9bf2037d3b670"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "2b3c83dce4f8ce9886bde77efab989884a029d9abab0fcf57a009fe83c78d526"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2ab7e89aebb23db5bc260455bf4454f6de27c0a5"
+git-tree-sha1 = "94fa5ec077773c71261eeaadc51c09b999616485"
 libc = "musl"
 os = "linux"
 
     [[SimpleBLE.download]]
-    sha256 = "9a9d5e8d62e8fbcd4d0c536dea3779726463096b589277b7a6137718b54b469f"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "818b00ff025b3ade99ee67cb0549e1b39cdc3d1213b2ea96c1ecadc10ee792af"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.x86_64-linux-musl-cxx11.tar.gz"
 [[SimpleBLE]]
 arch = "x86_64"
-git-tree-sha1 = "cb53c123557cd7b953b1a25d002139edf9f03cb9"
+git-tree-sha1 = "190184ffaf894ad4cc47522b613721421e90c4ce"
 os = "freebsd"
 
     [[SimpleBLE.download]]
-    sha256 = "9e4be984534e0ef5e209f7b6f233dbb5a404ae751be61289299cec0b8505cf0a"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "bc6723d5a657bbdf38e913dab6b5023072766350bf970ebe093a97a91f113056"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.x86_64-unknown-freebsd.tar.gz"
 [[SimpleBLE]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -283,4 +283,4 @@ os = "windows"
 
     [[SimpleBLE.download]]
     sha256 = "99b8e3a839946d1d424a0a49094b1f7971c1b077986001fa1db169478c8fd65c"
-    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+2/SimpleBLE.v0.12.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+3/SimpleBLE.v0.12.1.x86_64-w64-mingw32-cxx11.tar.gz"

@@ -73,3 +73,12 @@ os = "linux"
     [[SimpleBLE.download]]
     sha256 = "74bdfb85a181822bc281d01c8129d21bec77963f030ede0e5515f4d43546ab45"
     url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+1/SimpleBLE.v0.12.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[SimpleBLE]]
+arch = "x86_64"
+git-tree-sha1 = "4ab30299ba297bae945e9f696fdae51c7fff44b3"
+libc = "glibc"
+os = "linux"
+
+    [[SimpleBLE.download]]
+    sha256 = "74bdfb85a181822bc281d01c8129d21bec77963f030ede0e5515f4d43546ab45"
+    url = "https://github.com/AwesomeQuest/SimpleBLE_jll/releases/download/SimpleBLE-v0.12.1+1/SimpleBLE.v0.12.1.x86_64-linux-gnu.tar.gz"

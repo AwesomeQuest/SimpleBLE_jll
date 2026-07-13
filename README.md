@@ -20,7 +20,7 @@ The tarballs for `SimpleBLE_jll.jl` have been built from these sources:
 
 `SimpleBLE_jll.jl` is available for the following platforms:
 
-* `Platform("x86_64", "linux"; libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11`)
+* `Platform("x86_64", "linux"; libc = "glibc")` (`x86_64-linux-gnu`)
 
 ## Dependencies
 

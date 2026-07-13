@@ -19,4 +19,4 @@ function __init__()
     )
 
     JLLWrappers.@generate_init_footer()
-end
+end  # __init__()

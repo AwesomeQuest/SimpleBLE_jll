@@ -20,7 +20,14 @@ The tarballs for `SimpleBLE_jll.jl` have been built from these sources:
 
 `SimpleBLE_jll.jl` is available for the following platforms:
 
-* `Platform("x86_64", "linux"; libc = "glibc")` (`x86_64-linux-gnu`)
+* `Platform("aarch64", "macos"; )` (`aarch64-apple-darwin`)
+* `Platform("aarch64", "linux"; libc = "glibc", cxxstring_abi = "cxx11")` (`aarch64-linux-gnu-cxx11`)
+* `Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc", cxxstring_abi = "cxx11")` (`armv6l-linux-gnueabihf-cxx11`)
+* `Platform("i686", "linux"; libc = "glibc", cxxstring_abi = "cxx11")` (`i686-linux-gnu-cxx11`)
+* `Platform("i686", "windows"; cxxstring_abi = "cxx11")` (`i686-w64-mingw32-cxx11`)
+* `Platform("x86_64", "macos"; )` (`x86_64-apple-darwin`)
+* `Platform("x86_64", "linux"; libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11`)
+* `Platform("x86_64", "windows"; cxxstring_abi = "cxx11")` (`x86_64-w64-mingw32-cxx11`)
 
 ## Dependencies
 

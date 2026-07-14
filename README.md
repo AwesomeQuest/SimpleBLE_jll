@@ -15,6 +15,7 @@ The tarballs for `SimpleBLE_jll.jl` have been built from these sources:
 * compressed archive: https://github.com/simpleble/simpleble/releases/download/v0.12.1/libsimplecble_macos-x64.zip (SHA256 checksum: `c466ca02c70db1b78d731e635d4c15e4c125c9526fdebc7012ccc2660d1ba39b`)
 * compressed archive: https://github.com/simpleble/simpleble/releases/download/v0.12.1/libsimplecble_macos-aarch64.zip (SHA256 checksum: `11d2a6a88fe02a79a0a6571d0df11c44801ca7c8b7be408b7245421b0a6f6308`)
 * git repository: https://github.com/simpleble/simpleble.git (revision: `d1b7110644f0f9cb850d6ab43f7d461ca9d4031e`)
+* compressed archive: https://dbus.freedesktop.org/releases/dbus/dbus-1.16.2.tar.xz (SHA256 checksum: `0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2`)
 
 ## Platforms
 
@@ -28,12 +29,6 @@ The tarballs for `SimpleBLE_jll.jl` have been built from these sources:
 * `Platform("x86_64", "macos"; )` (`x86_64-apple-darwin`)
 * `Platform("x86_64", "linux"; libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-cxx11`)
 * `Platform("x86_64", "windows"; cxxstring_abi = "cxx11")` (`x86_64-w64-mingw32-cxx11`)
-
-## Dependencies
-
-The following JLL packages are required by `SimpleBLE_jll.jl`:
-
-* `Dbus_jll`
 
 ## Products
 

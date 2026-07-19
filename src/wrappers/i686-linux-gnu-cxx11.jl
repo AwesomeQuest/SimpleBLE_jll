@@ -2,8 +2,8 @@
 export simpleble, simplecble
 
 JLLWrappers.@generate_wrapper_header("SimpleBLE")
-JLLWrappers.@declare_library_product(simpleble, "libsimpleble.so.0")
-JLLWrappers.@declare_library_product(simplecble, "libsimplecble.so.0")
+JLLWrappers.@declare_library_product(simpleble, "libsimpleble.so.1")
+JLLWrappers.@declare_library_product(simplecble, "libsimplecble.so.1")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
